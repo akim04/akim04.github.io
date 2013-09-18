@@ -1,11 +1,25 @@
 body {
 	background: pink;
-	font-size: 24px;
+	font-size: 16px;
 	font-family: Helvetica, "Futura";
 }
 
 h1 {
+	font-size: 4em;
+	text-align: center;
+	font-family: Helvetica, "Futura";
+	font-weight: bold;
 
+
+}
+
+h2 {
+	font-size: 2em;
+	color: grey;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 3em 0 1.5em 0;
 }
 
 h4 {
@@ -35,6 +49,44 @@ h4 {
 }
 
 a {
-	color: teal;
+	color: grey;
 	text-decoration: none;
+	font-size: 2em;
+	margin-left: 30px;
+}
+
+
+.my-essay {
+	margin: 20px 300px;
+	margin: 2em 10em;
+	font-size: 20px;
+}
+
+.my-essay p {
+	color:red;
+}
+
+p {
+	color: #bbb;
+}
+
+i {
+	font-style: italic;
+	color: purple;
+	text-decoration: underline;
+
+}
+
+.emphasis {
+	font-style: italic;
+	font-weight: 
+}
+
+
+blockquote {
+	font-style: italic;
+	font-size: 1.5em;
+	border-left: 5px solid purple;
+	margin: 1.5em 0;
+	padding: 0 0 0 2em;
 }
