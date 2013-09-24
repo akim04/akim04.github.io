@@ -1,16 +1,20 @@
 body {
-	background: pink;
+	background: #75A3FF;
 	font-size: 16px;
-	font-family: Helvetica, "Futura";
+	font-family: Myriad Pro, "Helvetica, Ariel, Futura";
+	color: 
 }
 
 h1 {
-	font-size: 4em;
+	font-size: 6em;
 	text-align: center;
-	font-family: Helvetica, "Futura";
-	font-weight: bold;
-
-
+	font-family: Myriad Pro, "Helvetica, Ariel, Futura";
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	color: #CDCDB4
 }
 
 h2 {
@@ -19,11 +23,73 @@ h2 {
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 3em 0 1.5em 0;
+	margin-bottom: 4em;
+}
+
+h3 {
+    font-family: Myriad Pro, "Helvetica, Ariel, Futura";
+    font-size: 2em;
+    color: black;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 1em;
+
 }
 
 h4 {
 	color: black;
+	font-size: 1.2em;
+	font-family: Myriad Pro, "Helvetica, Ariel, Futura";
+	margin-left: 10em;
+
+}
+
+
+a {
+	color: #3D3D29;
+	text-decoration: none;
+	font-size: 2em;
+	margin-left: 6em;
+	margin-bottom: 6em;
+	text-align: center;
+
+}
+
+p {
+	color: #bbbb;
+	font-size: 18px;
+	font-family: Myriad Pro, "Times New Roman";
+	margin-left: 10em;
+	margin-right: 10em;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+}
+
+i {
+	font-style: italic;
+	color: black;
+	text-decoration: none;
+
+}
+
+blockquote {
+	font-style: italic;
+	font-size: 1.5em;
+	border-left: 5px solid purple;
+	margin: 1.5em 0;
+	padding: 0 0 0 2em;
+}
+
+.gift-image {
+	margin-left: 6em;
+}
+
+.lucky {
+	margin-left: 30em;
+}
+
+.conclusion {
+	margin-top: 8em;
 }
 
 .special-subheading :(
@@ -48,13 +114,6 @@ h4 {
 	height: 80px;
 }
 
-a {
-	color: grey;
-	text-decoration: none;
-	font-size: 2em;
-	margin-left: 30px;
-}
-
 
 .my-essay {
 	margin: 20px 300px;
@@ -66,16 +125,7 @@ a {
 	color:red;
 }
 
-p {
-	color: #bbb;
-}
 
-i {
-	font-style: italic;
-	color: purple;
-	text-decoration: underline;
-
-}
 
 .emphasis {
 	font-style: italic;
@@ -83,10 +133,3 @@ i {
 }
 
 
-blockquote {
-	font-style: italic;
-	font-size: 1.5em;
-	border-left: 5px solid purple;
-	margin: 1.5em 0;
-	padding: 0 0 0 2em;
-}
