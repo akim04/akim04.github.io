@@ -1,10 +1,11 @@
 <html>
   <head>
+    <script type=copiedfromcreatekit></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     Text!
-    <h1>Main Heading (h1)</h1>
+    <h1 class="sillyfontwateverfromthewebsite">Main Heading (h1)</h1>
     <h4>Secondary Headings (h2-h7)</h4>
     <div class="shape">
     	Hi!
