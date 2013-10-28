@@ -1,5 +1,5 @@
 body {
-	background: #75A3FF;
+	background: white;
 	font-size: 16px;
 	font-family: Myriad Pro, "Helvetica, Ariel, Futura";
 	color: 
@@ -8,7 +8,7 @@ body {
 h1 {
 	font-size: 6em;
 	text-align: center;
-	font-family: Myriad Pro, "Helvetica, Ariel, Futura";
+	font-family:  ITC Avant Garde Gothic Std;
 	font-weight: lighter;
 	text-transform: uppercase;
 	letter-spacing: 5px;
@@ -19,6 +19,7 @@ h1 {
 
 h2 {
 	font-size: 2em;
+	font-family: ITC Avant Garde Gothic Std;
 	color: grey;
 	letter-spacing: 3px;
 	text-transform: uppercase;
@@ -27,9 +28,10 @@ h2 {
 }
 
 h3 {
-    font-family: Myriad Pro, "Helvetica, Ariel, Futura";
+    font-family: ITC Avant Garde Gothic Std;
+    font-weight: lighter;
     font-size: 2em;
-    color: black;
+    color: #3D3D29;
     letter-spacing: 1px;
     text-align: center;
     margin-top: 1em;
@@ -37,9 +39,10 @@ h3 {
 }
 
 h4 {
-	color: black;
+	color: #3D3D29;
 	font-size: 1.2em;
-	font-family: Myriad Pro, "Helvetica, Ariel, Futura";
+	font-family: ITC Avant Garde Gothic Std;
+	font-weight: lighter;
 	margin-left: 15em;
 
 }
@@ -48,26 +51,28 @@ h4 {
 a {
 	color: #3D3D29;
 	text-decoration: none;
-	font-size: 2em;
-	margin-left: 6em;
-	margin-bottom: 6em;
-	text-align: center;
-
+	font-size: 1.5em;
+	font-family: ITC Avant Garde Gothic Std;
+	font-weight: lighter;
+	z-index: 100;
+    background-color: pink;
+    padding: 10px 20px;
 }
 
 p {
-	color: #bbbb;
+	color: #3D3D29;
 	font-size: 18px;
-	font-family: Myriad Pro, "Times New Roman";
-	margin-left: 15em;
-	margin-right: 15em;
+	font-family: Avenir LT Std;
+	font-weight: lighter;
+	margin-left: 20em;
+	margin-right: 20em;
 	margin-top: 2.5em;
 	margin-bottom: 2.5em;
 }
 
 i {
 	font-style: italic;
-	color: black;
+	color: #3D3D29;
 	text-decoration: none;
 
 }
@@ -81,39 +86,51 @@ blockquote {
 }
 
 .gift-image {
-	margin-left: 6em;
+	padding: 6em;
+
 }
 
-.serenicelogo {
-	margin-left: 17em;
+div.serenicelogo img {
+	width: 600px;
 }
 
-.packagingtop {
-	margin-left: 1em;
+div.packagingtop img {
+	width: 1100px;
 }
 
-.packagingfront {
-	margin-left: 17em;
+div.packagingfront img {
+	width: 700px;
 }
 
-.spoon {
-	margin-left: 17em;
+div.spoon img {
+	width: 600px;
 }
 
-.fridgephoto {
-	margin-left: 24em;
+div.fridgephoto img {
+	width: 600px;
 }
 
-.documentation {
-	margin-left: 6em;
+div.documentation img {
+	width: 500px;
 }
 
-.lucky {
-	margin-left: 30em;
+div.manual img {
+	width: 800px;
 }
 
 .conclusion {
 	margin-top: 8em;
+}
+
+div.links a {
+	font-size: 1.5em;
+	font-family: ITC Avant Garde Gothic Std;
+	text-decoration: none;
+	color: #3D3D29;
+	z-index: 100;
+    background-color: pink;
+    padding: 10px 20px;
+   
 }
 
 .special-subheading :(
@@ -163,4 +180,91 @@ blockquote {
 .genieben {
 	margin-left: 18em
 
+}
+
+div.purple {
+	display: blockk;
+}
+
+span.purple {
+	display: block;
+	display: inline;
+}
+
+img {
+	width: 300px;
+	text-align: center;
+	display: block;
+	position: static;
+	margin: 30px auto;
+	padding: 30px 30px 30px 30px;
+	background-color: #CDCDB4;
+}
+
+div.babyanimalfight {
+	background: yellow;
+}
+
+div.babyanimalfight img.kitten {
+	width: 100px;
+	position: absolute;
+	top: 50px;
+	left: 400px;
+
+}
+
+div.thumbnail {
+	background: pink;
+	float: left;
+	border: 1px solid #0000;
+}
+
+div.thumbnail img {
+	width: 100px;
+	position: absolute;
+	left: 100px;
+	top: 70px;
+	z-index: 10;
+
+}
+
+div.thumbnail a {
+	font-size: 2em;
+	font-family: helvetica;
+	text-decoration: none;
+	color: black;
+	position: absolute;
+	top: 100px;
+	left: 220px;
+	width: 100px;
+	z-index: 100;
+    background-color: pink;
+    padding: 10px 20px;
+    opacity: 0.5;
+}
+
+div.thumbnail a:hover {
+	opacity: 1;
+	background: yellow;
+	padding: 80px;
+}
+
+div.container {
+	width: 800%;
+}
+
+img.puppy {
+	position: fixed;
+	z-index: 1000;
+
+}
+
+.nav a {
+	color: ;
+	margin-left: ;
+
+}
+
+.nav a:hover; {
+	color:;
 }

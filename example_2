@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <script type=copiedfromcreatekit></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    Text!
+    <h1 class="sillyfontwateverfromthewebsite">Main Heading (h1)</h1>
+    <h4>Secondary Headings (h2-h7)</h4>
+    <div class="shape">
+    	Hi!
+    </div>
+    <p>paragraph praragsalk;jfaj;asagljfsa;fd;ljfdsjsfa;lkjsfsldkajf;lsdfj;slagjslkfgjsajfaflksgjalrgjsdfljas;jfsdlkaj </p>
+    <h4 class="special-subheading">special secondary heading </h4>
+    <img src="image.png" />
+
+<div class="thumbnail">
+  <a href="http://crouton.net">My Assignment </a>
+  <img src="imgage.png" />
+</div>
+
+
+
+    <a href="newpage.html">
+    	Link to my new page!
+    </a>
+
+
+
+
+  </body>
+<html>
