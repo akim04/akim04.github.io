@@ -1,0 +1,91 @@
+body {
+	background: white;
+	font-size: 16px;
+	font-family: Myriad Pro, "Helvetica, Ariel, Futura";
+	color: 
+}
+
+h1 {
+	font-size: 6em;
+	text-align: center;
+	font-family:  ITC Avant Garde Gothic Std;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	padding-right: 30px;
+	color: white;
+	background-color:#3D3D29;
+}
+
+h3 {
+    font-family: ITC Avant Garde Gothic Std;
+    font-weight: lighter;
+    font-size: 2em;
+    color: #3D3D29;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 1em;
+}
+
+h4 {
+	color: #3D3D29;
+	font-size: 1.2em;
+	font-family: ITC Avant Garde Gothic Std;
+	font-weight: lighter;
+	margin-left: 15em;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-family: ITC Avant Garde Gothic Std;
+	font-weight: lighter;
+	z-index: 100;
+    background-color: #3D3D29;
+    padding: 10px 20px;
+}
+
+p {
+	color: #3D3D29;
+	font-size: 18px;
+	font-family: Avenir LT Std;
+	font-weight: lighter;
+	margin-left: 20em;
+	margin-right: 20em;
+	margin-top: 2.5em;
+	margin-bottom: 2.5em;
+}
+
+img {
+	text-align: center;
+	display: block;
+	position: static;
+	margin: 30px auto;
+	padding: 30px 30px 30px 30px;
+	background-color: #CDCDB4;
+}
+
+li.index {
+	display: block;
+	margin-left: none;
+	margin-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 10px 10px 10px;
+	background-color: #3D3D29;
+}
+
+li.index a:hover{
+	opacity: 0.5;
+} 
+
+div.Elvgren img {
+	width: 300px;
