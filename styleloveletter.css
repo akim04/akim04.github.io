@@ -64,7 +64,14 @@ p {
 	margin-bottom: 2.5em;
 }
 
+i {
+	font-style: italic;
+	color: #3D3D29;
+	text-decoration: none;
+}
+
 img {
+	width: 500px;
 	text-align: center;
 	display: block;
 	position: static;
@@ -86,3 +93,20 @@ li.index {
 li.index a:hover{
 	opacity: 0.5;
 } 
+
+div.filmography a {
+	color: white;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size: 1em;
+	font-family: ITC Avant Garde Gothic Std;
+	font-weight: lighter;
+	margin-left: 300px;
+    background-color: #3D3D29;
+    padding: 5px 10px;
+}
+
+div.filmography a:hover{
+	opacity: 0.5;
+}
+
